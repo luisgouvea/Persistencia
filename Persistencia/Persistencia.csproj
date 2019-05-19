@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AtividadeDD.cs" />
+    <Compile Include="DD\PictureItemDD.cs" />
     <Compile Include="DD\OrderDD.cs" />
     <Compile Include="Models\ItemOrder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
