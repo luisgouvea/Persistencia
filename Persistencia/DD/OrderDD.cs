@@ -80,7 +80,7 @@ namespace Persistencia.DD
                     {
                         while (dReader.Read())
                         {
-                            itemOderTarget.barcode = dReader["COD_BARRA"] != DBNull.Value ? dReader["COD_BARRA"].ToString() : string.Empty;
+                            itemOderTarget.barcode = dReader["COD_BARRA"] != DBNull.Value ? dReader["COD_BARRA"].ToString() : "1";
                         }
 
                         conexao.Close();
